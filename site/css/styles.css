@@ -1,0 +1,87 @@
+
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+  padding: 0;
+  font-size: 16px;
+}
+
+/* ----- HEADER -------*/
+
+#header-nav {
+  background-color: #a0a0a0;
+  border-radius: 0;
+  border-bottom-width: 5px;
+  border-color: black;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+}
+
+.navbar-brand {
+  padding: 30px;
+  padding-top: 10px
+  padding-bottom: 10px;
+}
+
+.navbar-brand h1 { 
+  color: black;
+  font-size: 1.6em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin: 0px auto 0px;
+  line-height: .75;
+  position: absolute;
+  left: 30px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+button.navbar-toggle{
+  size: 1.2em;
+  margin-bottom: 5px;
+  position: relative;
+  top: -5px;
+}
+.navbar-header button.navbar-toggle, .navbar-header {
+  margin-left: 0px;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* ---- BODY -----*/
+p {
+  font-weight: bold;
+  margin: 0px auto 15px;
+  text-align: center;
+  font-size: 1.8em;
+
+}
+
+h2 {
+  font-weight: bold;
+  margin: 0px auto 15px;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+.entry{
+  padding: 20px 20px 20px 20px;
+  background-color: #a0a0a0;
+  text-align: justify;
+  margin: 30px;
+  border: 1px solid black;
+  font-size: 14px;
+}
+
